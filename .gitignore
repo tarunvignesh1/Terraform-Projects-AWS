@@ -1,0 +1,26 @@
+# Ignore Terraform state files and directories
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfstate.old
+terraform.tfstate
+terraform.tfstate.*
+.terraform.lock.hcl
+
+# Ignore Terraform configuration files that are not meant to be shared
+*.tfvars
+*.tfvars.json
+
+# Ignore .terraform directory which contains plugin binaries and state
+.terraform/
+
+# Ignore crash log files
+crash.log
+
+# Ignore the Terraform plan output
+*.tfplan
+*.tfplan.json
+
+# Ignore other system-specific files
+.DS_Store
+*.log
