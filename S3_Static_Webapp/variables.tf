@@ -1,6 +1,6 @@
 variable "bucket_name" {
     type = string
 
-    default = "S3-Website"
+    default = "my-static-website-bucket-10134756"
 
 }
