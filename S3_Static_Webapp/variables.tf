@@ -1,6 +1,6 @@
 variable "bucket_name" {
-    type = string
+  type = string
 
-    default = "my-static-website-bucket-10134756"
+  default = "my-static-website-bucket-10134756"
 
 }
