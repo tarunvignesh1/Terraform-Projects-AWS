@@ -1,2 +1,2 @@
 # Terraform-Projects-AWS
-Multiple AWS terraform projects using AWS as provider 
+Multiple AWS terraform projects using AWS
